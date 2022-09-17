@@ -1,0 +1,70 @@
+<div class="limiter">
+  <div class="container-login100" style="background-image: url('assets/images/bg-01.jpg');">
+    <div class="wrap-login100 p-l-55 p-r-55 p-t-65 p-b-54">
+
+
+
+
+      <form class="login100-form validate-form" [formGroup]="formformm">
+        <span class="login100-form-title p-b-49">
+          Welcome OUIVALO Team !!
+        </span>
+
+        <div class="wrap-input100 validate-input m-b-23">
+          <span class="label-input100 font-weight-bold">ID</span>
+          <input class="input100" type="text" placeholder="" formControlName="id">
+          <span class="focus-input100"></span>
+        </div>
+
+        <div class="wrap-input100 validate-input">
+          <span class="label-input100 font-weight-bold">Date</span>
+          <input class="input100" type="date" placeholder="16-09-2022" formControlName="date">
+          <span class="focus-input100"></span>
+        </div>
+
+        <div class="wrap-input100 validate-input m-b-23">
+          <span class="label-input100 font-weight-bold">Github URL</span>
+          <input class="input100" type="text" placeholder="" formControlName="urlRelais">
+          <span class="focus-input100"></span>
+        </div>
+
+
+        <div class="wrap-input100 validate-input m-b-23">
+          <span class="label-input100 font-weight-bold">Little message</span>
+          <input class="input100" type="text" placeholder="i tried my best alone,there is always cors problem " formControlName="message">
+          <span class="focus-input100"></span>
+
+        </div>
+
+
+        <div class="container-login100-form-btn">
+          <div class="wrap-login100-form-btn">
+            <div class="login100-form-bgbtn"></div>
+            <button class="login100-form-btn" type="submit" (click)="send()">
+              Login
+            </button>
+          </div>
+        </div>
+
+        <div class="txt1 text-center p-t-54 p-b-20">
+          <span>
+            You can find me hir
+          </span>
+        </div>
+
+        <div class="flex-c-m">
+          <a href="https://www.linkedin.com/in/medbenzarti/" class="login100-social-item bg1">
+            <i class="fa fa-linkedin"></i>
+          </a>
+
+          <a href="https://github.com/benzarty" class="login100-social-item bg2">
+            <i class="fa fa-github"></i>
+          </a>
+
+        </div>
+
+
+      </form>
+    </div>
+  </div>
+</div>

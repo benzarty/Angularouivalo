@@ -66,6 +66,8 @@
         },
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
+
+
           "configurations": {
             "production": {
               "browserTarget": "Angularouivalo:build:production"
